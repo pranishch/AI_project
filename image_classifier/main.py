@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import torch
 from torchvision import transforms
-from PIL import Image
+from PIL import Image 
 import io
 from transformers import pipeline  
 import os
